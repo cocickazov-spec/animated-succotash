@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Личный архив 2024–2025 — 15 стихотворений.">
+<meta name="theme-color" content="#070907">
+<title>Личный архив 2024–2025</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#070907;color:#e9e5d8;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:10;opacity:.035;background:repeating-linear-gradient(0deg,#fff 0 1px,transparent 1px 4px)}
+button{font:inherit}
+.hero{min-height:72svh;padding:28px clamp(20px,7vw,100px);display:flex;flex-direction:column;justify-content:end;background:radial-gradient(circle at 75% 20%,#3c4b14,transparent 28%),linear-gradient(145deg,#12160d,#070907 70%);border-bottom:1px solid #2d3627}
+.eyebrow{font:600 12px/1.4 ui-monospace,SFMono-Regular,monospace;letter-spacing:4px;color:#b9d83b}
+.hero h1{font-family:Impact,"Arial Narrow",system-ui,sans-serif;font-size:clamp(64px,12vw,150px);line-height:.8;margin:25px 0 20px;text-transform:uppercase}
+.hero h1 span{color:#b9d83b}
+.lead{max-width:720px;color:#9ba18f;line-height:1.8;font-size:14px}
+.wrap{width:min(1180px,100%);margin:auto;padding:65px 18px}
+.section-head{display:flex;justify-content:space-between;align-items:end;border-top:1px solid #2d3627;padding-top:15px;margin-bottom:30px}
+.section-head h2{font-family:Impact,"Arial Narrow",system-ui,sans-serif;font-size:52px;line-height:.9;margin:0;text-transform:uppercase}
+.section-head small{color:#b9d83b;font:600 11px ui-monospace,monospace;letter-spacing:2px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:#10130f;border:1px solid #2d3627;overflow:hidden;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);border-color:#607334}
+.thumb{display:block;width:100%;aspect-ratio:16/10;background:#111;overflow:hidden}
+.thumb svg{display:block;width:100%;height:100%;object-fit:cover}
+.card-body{padding:20px}
+.num{font:600 11px ui-monospace,monospace;letter-spacing:3px;color:#b9d83b}
+.card h3{font-size:32px;line-height:1;margin:13px 0 8px;text-transform:uppercase}
+.score{color:#b9d83b;font:600 11px ui-monospace,monospace}
+.card p{color:#9ba18f;font-size:13px;line-height:1.7;min-height:68px}
+.read,.back,.next{display:inline-block;margin-top:8px;padding:11px 14px;border:1px solid #52642b;color:#b9d83b;background:transparent;text-decoration:none;font:600 11px ui-monospace,monospace;cursor:pointer}
+footer{border-top:1px solid #2d3627;padding:30px 18px;text-align:center;color:#69705f;font:10px ui-monospace,monospace;letter-spacing:2px}
+.hidden{display:none!important}
+.poem-page{min-height:100svh;display:grid;grid-template-columns:minmax(300px,42%) 1fr}
+.art{position:sticky;top:0;height:100svh;background:#10130f;display:flex;align-items:flex-end;padding:30px;overflow:hidden}
+.art svg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.art-overlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.8),transparent 55%)}
+.art-caption{position:relative;z-index:2;font:600 11px ui-monospace,monospace;letter-spacing:3px;color:#b9d83b}
+.content{padding:30px clamp(20px,5vw,75px) 70px;max-width:900px}
+.nav{display:flex;justify-content:space-between;gap:15px;margin-bottom:60px}
+.content h1{font-family:Impact,"Arial Narrow",system-ui,sans-serif;font-size:clamp(48px,7vw,90px);line-height:.88;text-transform:uppercase;margin:0 0 25px}
+.desc{border-left:2px solid #b9d83b;padding-left:16px;color:#9ba18f;font-size:14px;line-height:1.8;margin:25px 0 55px}
+.poem{white-space:pre-line;font:18px/1.95 Georgia,serif;color:#e1ddcf}
+.end{margin-top:70px;padding-top:20px;border-top:1px solid #2d3627}
+.exit{display:inline-block;padding:14px 18px;background:#b9d83b;color:#080a07;text-decoration:none;font:700 12px ui-monospace,monospace;border:0;cursor:pointer}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.hero{min-height:65svh}.hero h1{font-size:68px}.section-head h2{font-size:43px}.card h3{font-size:28px}}
+@media(max-width:760px){.poem-page{display:block}.art{position:relative;height:48svh;min-height:330px}.content{padding:22px 18px 50px}.nav{margin-bottom:42px}.poem{font-size:17px;line-height:1.85}}
+</style>
+</head>
+<body>
+<section id="catalog">
+<header class="hero">
+<div class="eyebrow">АРХИВ ТЕКСТОВ · 2024–2025</div>
+<h1>ЛИЧНЫЙ<br><span>АРХИВ</span></h1>
+<div class="lead">Пятнадцать стихотворений одного периода. Здесь рядом существуют военная память, дорога, дружба, ночная тишина, совесть, абсурд и размышления о людях.</div>
+</header>
+<main class="wrap">
+<div class="section-head"><h2>Сборник</h2><small>15 ТЕКСТОВ</small></div>
+<div class="grid">
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ПОЛЕ / ОКОП">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#6f3b28"/>
+<circle cx="610" cy="110" r="90" fill="#c38a59" opacity=".12" filter="url(#g)"/>
+<rect x="110" y="300" width="580" height="150" rx="10" fill="#15130f"/><path d="M120 360 Q260 315 390 360 T680 350" fill="none" stroke="#c38a59" stroke-width="7"/><circle cx="540" cy="155" r="58" fill="#c38a59" opacity=".28"/><path d="M210 430 L250 260 L290 430 M330 430 L365 235 L405 430" stroke="#c38a59" stroke-width="10" fill="none"/>
+<text x="55" y="80" fill="#c38a59" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ПОЛЕ / ОКОП</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">01</div>
+    <h3>Было много нашествий</h3>
+    <div class="score">9.8 / 10</div>
+    <p>Военная баллада о человеке, который остался один среди поля после сражения. Память о матери, любимой и доме постепенно смешивается с тишиной окопа.</p>
+    <button class="read" data-open="01">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ТРАССА / НОЧЬ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#24415d"/>
+<circle cx="610" cy="110" r="90" fill="#6da6d5" opacity=".12" filter="url(#g)"/>
+<path d="M390 520 C350 430 360 330 395 250 C430 330 430 430 390 520Z" fill="#15181b"/><path d="M260 520 Q390 410 520 520" fill="none" stroke="#6da6d5" stroke-width="12"/><path d="M330 520 L355 230 M450 520 L425 230" stroke="#6da6d5" stroke-width="8"/><circle cx="390" cy="145" r="45" fill="#6da6d5" opacity=".35"/>
+<text x="55" y="80" fill="#6da6d5" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ТРАССА / НОЧЬ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">02</div>
+    <h3>Трасса М5</h3>
+    <div class="score">9.4 / 10</div>
+    <p>Дорога становится образом повторяющегося одиночества: человек снова оказывается там, где уже был, продолжая идти несмотря на ошибки и разочарования.</p>
+    <button class="read" data-open="02">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="КОМНАТА / ХАОС">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#51421a"/>
+<circle cx="610" cy="110" r="90" fill="#d1aa48" opacity=".12" filter="url(#g)"/>
+<rect x="180" y="230" width="420" height="250" rx="18" fill="#17150e" stroke="#d1aa48" stroke-width="5"/><circle cx="270" cy="315" r="50" fill="#d1aa48" opacity=".25"/><path d="M420 275 l90 0 l-25 130 l-90 0z" fill="#d1aa48" opacity=".32"/><path d="M230 455 Q390 370 550 455" fill="none" stroke="#d1aa48" stroke-width="8"/>
+<text x="55" y="80" fill="#d1aa48" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">КОМНАТА / ХАОС</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">03</div>
+    <h3>Друзья-ебанаты</h3>
+    <div class="score">9.3 / 10</div>
+    <p>Грубоватая и абсурдная зарисовка о компании друзей, чьи странности становятся частью общей привязанности. За шутками остаётся простая мысль о дружбе.</p>
+    <button class="read" data-open="03">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ТРИ ЧАСА НОЧИ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#283652"/>
+<circle cx="610" cy="110" r="90" fill="#9db5d9" opacity=".12" filter="url(#g)"/>
+<rect x="190" y="170" width="400" height="290" rx="18" fill="#10131a" stroke="#9db5d9" stroke-width="4"/><circle cx="390" cy="150" r="42" fill="#9db5d9" opacity=".3"/><path d="M270 420 Q390 300 510 420" fill="none" stroke="#9db5d9" stroke-width="7"/><ellipse cx="390" cy="410" rx="70" ry="25" fill="#9db5d9" opacity=".45"/>
+<text x="55" y="80" fill="#9db5d9" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ТРИ ЧАСА НОЧИ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">04</div>
+    <h3>Парень сидит в три ночи</h3>
+    <div class="score">9.2 / 10</div>
+    <p>Ночная исповедь о человеке, который переживает отсутствие тепла и поддержки. Чай, тишина и дорога домой становятся простыми деталями внутренней усталости.</p>
+    <button class="read" data-open="04">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ПРОСПЕКТ / ДОЖДЬ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#2f4433"/>
+<circle cx="610" cy="110" r="90" fill="#a7c58c" opacity=".12" filter="url(#g)"/>
+<path d="M130 500 Q390 360 650 500" fill="none" stroke="#a7c58c" stroke-width="10"/><circle cx="390" cy="240" r="62" fill="#a7c58c" opacity=".22"/><path d="M310 500 L335 300 M470 500 L445 300" stroke="#a7c58c" stroke-width="9"/>
+<text x="55" y="80" fill="#a7c58c" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ПРОСПЕКТ / ДОЖДЬ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">05</div>
+    <h3>Стоит человек посреди дороги</h3>
+    <div class="score">9.2 / 10</div>
+    <p>Монолог человека, привыкшего помогать другим и почти не замечать собственную усталость. Финал резко обрывает историю, превращая доброту в трагический образ.</p>
+    <button class="read" data-open="05">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ОГОНЬ / ТИШИНА">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#4c321b"/>
+<circle cx="610" cy="110" r="90" fill="#d28c40" opacity=".12" filter="url(#g)"/>
+<path d="M390 520 C290 400 270 300 390 230 C510 300 490 400 390 520Z" fill="none" stroke="#d28c40" stroke-width="14"/><path d="M390 455 C340 395 335 345 390 315 C445 345 440 395 390 455Z" fill="#d28c40" opacity=".4"/>
+<text x="55" y="80" fill="#d28c40" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ОГОНЬ / ТИШИНА</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">06</div>
+    <h3>И вновь идём мы на пролом</h3>
+    <div class="score">9.0 / 10</div>
+    <p>Размышление о совести как о внутреннем голосе, который не исчезает даже тогда, когда от него пытаются избавиться. Образ огня оставляет открытым вопрос о том, что остаётся после пережитого.</p>
+    <button class="read" data-open="06">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="СЕРДЦЕ / БЛЮДО">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#491919"/>
+<circle cx="610" cy="110" r="90" fill="#d24c42" opacity=".12" filter="url(#g)"/>
+<ellipse cx="390" cy="360" rx="150" ry="190" fill="#d24c42" opacity=".35"/><path d="M300 290 C340 220 440 220 480 290 C500 350 450 430 390 470 C330 430 280 350 300 290Z" fill="#17100f" stroke="#d24c42" stroke-width="8"/>
+<text x="55" y="80" fill="#d24c42" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">СЕРДЦЕ / БЛЮДО</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">07</div>
+    <h3>Худо-бедно тянут люди</h3>
+    <div class="score">8.8 / 10</div>
+    <p>Притчевый образ мёртвого сердца на блюде превращается в разговор о свободе, страхе и цене перемен. Короткий текст построен на резких контрастах.</p>
+    <button class="read" data-open="07">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="РАСПУТЬЕ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#40432b"/>
+<circle cx="610" cy="110" r="90" fill="#b5b96c" opacity=".12" filter="url(#g)"/>
+<path d="M390 130 L390 500 M170 320 L610 320" stroke="#b5b96c" stroke-width="8"/><path d="M390 320 L235 185 M390 320 L545 185 M390 320 L220 465 M390 320 L570 465" stroke="#b5b96c" stroke-width="7"/><circle cx="390" cy="320" r="38" fill="#b5b96c" opacity=".4"/>
+<text x="55" y="80" fill="#b5b96c" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">РАСПУТЬЕ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">08</div>
+    <h3>Нынешний мир на распутье</h3>
+    <div class="score">8.2 / 10</div>
+    <p>Картина мира, в котором обычное желание спокойной жизни сталкивается с ощущением чужого и тяжёлого пути. Финальные строки переводят общий взгляд в личное пространство автора.</p>
+    <button class="read" data-open="08">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ХЛЕБ / ГНИЛЬ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#49391f"/>
+<circle cx="610" cy="110" r="90" fill="#d2ad62" opacity=".12" filter="url(#g)"/>
+<rect x="220" y="270" width="340" height="210" rx="12" fill="#5b4020" stroke="#d2ad62" stroke-width="7"/><path d="M280 310 Q390 260 500 310 M260 365 Q390 325 520 365 M300 425 Q390 390 480 425" fill="none" stroke="#1b140e" stroke-width="14"/>
+<text x="55" y="80" fill="#d2ad62" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ХЛЕБ / ГНИЛЬ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">09</div>
+    <h3>Все люди как люди — они словно хлеб</h3>
+    <div class="score">8.0 / 10</div>
+    <p>Развёрнутая метафора людей как разных видов хлеба. Внешняя привлекательность постепенно уступает место образам пустоты, гнили и разочарования.</p>
+    <button class="read" data-open="09">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="МЯКИШ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#39311f"/>
+<circle cx="610" cy="110" r="90" fill="#c9b477" opacity=".12" filter="url(#g)"/>
+<path d="M260 390 Q390 330 520 390 Q450 470 390 470 Q330 470 260 390Z" fill="#c9b477" opacity=".55"/><circle cx="390" cy="300" r="45" fill="#c9b477" opacity=".18"/>
+<text x="55" y="80" fill="#c9b477" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">МЯКИШ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">10</div>
+    <h3>Есть люди как люди</h3>
+    <div class="score">8.0 / 10</div>
+    <p>Короткая версия хлебной метафоры: от свежего мякиша до внутренней гнили. Текст намеренно сжат до нескольких резких образов.</p>
+    <button class="read" data-open="10">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ТОНУЩИЙ МИР">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#1b4044"/>
+<circle cx="610" cy="110" r="90" fill="#5bc2b5" opacity=".12" filter="url(#g)"/>
+<path d="M150 470 Q270 380 390 470 T630 470" fill="none" stroke="#5bc2b5" stroke-width="14"/><rect x="300" y="230" width="180" height="140" rx="10" fill="#102024" stroke="#5bc2b5" stroke-width="5"/><path d="M230 250 L550 430 M230 430 L550 250" stroke="#5bc2b5" stroke-width="3" opacity=".4"/>
+<text x="55" y="80" fill="#5bc2b5" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ТОНУЩИЙ МИР</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">11</div>
+    <h3>Мякиш в тонущем мире</h3>
+    <div class="score">8.0 / 10</div>
+    <p>Герой сравнивает себя с мягким свежим мякишем среди мира, который кажется ему прогнившим и тонущим. В центре — сопротивление попытке превратить человека в чужую ошибку.</p>
+    <button class="read" data-open="11">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ФЕНИКС / КОД">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#3b2250"/>
+<circle cx="610" cy="110" r="90" fill="#b67cf0" opacity=".12" filter="url(#g)"/>
+<path d="M390 500 C300 430 275 345 320 285 C350 245 375 205 390 155 C405 205 430 245 460 285 C505 345 480 430 390 500Z" fill="#b67cf0" opacity=".55"/><path d="M320 420 Q390 330 460 420" fill="none" stroke="#120b17" stroke-width="10"/>
+<text x="55" y="80" fill="#b67cf0" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ФЕНИКС / КОД</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">12</div>
+    <h3>Я гений в теле лентяя</h3>
+    <div class="score">8.0 / 10</div>
+    <p>Самоопределение через противопоставления: гений и лентяй, зло и добро, ошибка и сопротивление системе. Финальный образ Феникса задаёт мотив возвращения и несогласия с исчезновением.</p>
+    <button class="read" data-open="12">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ВЗГЛЯД">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#343842"/>
+<circle cx="610" cy="110" r="90" fill="#abb4c8" opacity=".12" filter="url(#g)"/>
+<circle cx="390" cy="300" r="100" fill="#abb4c8" opacity=".22"/><circle cx="350" cy="290" r="12" fill="#abb4c8"/><circle cx="430" cy="290" r="12" fill="#abb4c8"/><path d="M300 410 Q390 470 480 410" fill="none" stroke="#abb4c8" stroke-width="8"/>
+<text x="55" y="80" fill="#abb4c8" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ВЗГЛЯД</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">13</div>
+    <h3>Шёл домой я с прогулки</h3>
+    <div class="score">8.0 / 10</div>
+    <p>Абсурдная история о случайном взгляде, который воспринимается как смертельный удар. Повседневная прогулка постепенно превращается в гротескную драму.</p>
+    <button class="read" data-open="13">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ПЕРНАТЫЙ ТЕРРОРИСТ">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#2b4b31"/>
+<circle cx="610" cy="110" r="90" fill="#7bd18d" opacity=".12" filter="url(#g)"/>
+<rect x="300" y="230" width="180" height="220" rx="50" fill="#172217" stroke="#7bd18d" stroke-width="6"/><circle cx="350" cy="300" r="14" fill="#7bd18d"/><circle cx="430" cy="300" r="14" fill="#7bd18d"/><path d="M300 360 L220 300 M480 360 L560 300" stroke="#7bd18d" stroke-width="9"/><path d="M280 450 Q390 390 500 450" fill="none" stroke="#7bd18d" stroke-width="8"/>
+<text x="55" y="80" fill="#7bd18d" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ПЕРНАТЫЙ ТЕРРОРИСТ</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">14</div>
+    <h3>Попугай-террорист</h3>
+    <div class="score">7.8 / 10</div>
+    <p>Бытовой абсурд о домашнем попугае, который превращает квартиру в маленькую зону хаоса. Агрессивная лексика здесь работает как часть комического рассказа.</p>
+    <button class="read" data-open="14">ЧИТАТЬ СТИХ</button>
+  </div>
+</article>
+<article class="card">
+  <div class="thumb"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="ВЕЧЕР / КРЕСЛО">
+<defs><filter id="g"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<rect width="780" height="560" fill="#4a3b25"/>
+<circle cx="610" cy="110" r="90" fill="#d5b06a" opacity=".12" filter="url(#g)"/>
+<rect x="270" y="330" width="240" height="130" rx="20" fill="#19140d" stroke="#d5b06a" stroke-width="6"/><path d="M315 330 L315 245 M465 330 L465 245" stroke="#d5b06a" stroke-width="8"/><circle cx="390" cy="210" r="35" fill="#d5b06a" opacity=".28"/><path d="M280 460 Q390 400 500 460" fill="none" stroke="#d5b06a" stroke-width="7"/>
+<text x="55" y="80" fill="#d5b06a" font-family="monospace" font-size="16" letter-spacing="4">ЛИЧНЫЙ АРХИВ · 2024–2025</text>
+<text x="55" y="515" fill="#e8e2d3" font-family="sans-serif" font-weight="700" font-size="34" letter-spacing="2">ВЕЧЕР / КРЕСЛО</text>
+</svg></div>
+  <div class="card-body">
+    <div class="num">15</div>
+    <h3>Сидит парень на кресле весёлый</h3>
+    <div class="score">7.5 / 10</div>
+    <p>Спокойная бытовая сцена, в которой обычный вечер с кашей и мультфильмом соседствует с неожиданной мыслью о будущем. Текст оставляет ощущение странного, почти сонного эпизода.</p>
+    <button class="read" data-open="15">ЧИТАТЬ СТИХ</button>
+  </div>
+</article></div>
+</main>
+<footer>ЛИЧНЫЙ АРХИВ · 2024–2025</footer>
+</section>
+
+<section id="reader" class="hidden">
+<div class="poem-page">
+<aside class="art"><div id="art"></div><div class="art-overlay"></div><div id="caption" class="art-caption"></div></aside>
+<main class="content">
+<nav class="nav">
+<button class="back" id="back">← ЛИЧНЫЙ АРХИВ</button>
+<button class="next" id="next">СЛЕДУЮЩИЙ →</button>
+</nav>
+<h1 id="title"></h1>
+<div id="score" class="score"></div>
+<div id="desc" class="desc"></div>
+<div id="poem" class="poem"></div>
+<div class="end"><button class="exit" id="exit">← ВЕРНУТЬСЯ В АРХИВ</button></div>
+</main>
+</div>
+</section>
+
+<script>
+const poems=[{"i": "01", "title": "Было много нашествий", "score": "9.8 / 10", "desc": "Военная баллада о человеке, который остался один среди поля после сражения. Память о матери, любимой и доме постепенно смешивается с тишиной окопа.", "poem": "Было много нашествий, было много битв,\nбыло много сражений — лишь один был убит.\nСреди воинов храбрых лежу на спине,\nи лишь усталые взгляды ловлю на себе.\n\nПомню мать у окна, помню поле в росе,\nлюбимую помню, что клялась по весне.\nИ я помню тот день, что пошёл на войну,\nи как сотню я писем прочёл — не одну.\n\nЯ один здесь лежу, я один средь полей,\nникого не сужу, ты меня не жалей.\nЗапах пороха я давно позабыл,\nтолько старую шашку я с собой носил.\n\nИ лежит она рядом — средь полей и лесов.\nЯ в окопе остался — он навеки мой дом.\nМать не знает, что тут лежу я без сил,\nа родные всё ждут: хоть дожил.\n\nИ годы шли, а я всё лежал.\nКто мне расскажет, кто войну проиграл?\nНе живой я, не мёртвый — я просто чужой.\nКак хотелось бы просто уйти на покой.\n\nЗа берёзами тихо стихали шаги.\nЯ уже не пойму, чьи сапоги.\nИ лежу я в окопе, я один средь полей.\nТы меня не тревожь — ты живых пожалей.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ПОЛЕ / ОКОП\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#6f3b28\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#c38a59\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"110\" y=\"300\" width=\"580\" height=\"150\" rx=\"10\" fill=\"#15130f\"/><path d=\"M120 360 Q260 315 390 360 T680 350\" fill=\"none\" stroke=\"#c38a59\" stroke-width=\"7\"/><circle cx=\"540\" cy=\"155\" r=\"58\" fill=\"#c38a59\" opacity=\".28\"/><path d=\"M210 430 L250 260 L290 430 M330 430 L365 235 L405 430\" stroke=\"#c38a59\" stroke-width=\"10\" fill=\"none\"/>\n<text x=\"55\" y=\"80\" fill=\"#c38a59\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ПОЛЕ / ОКОП</text>\n</svg>"}, {"i": "02", "title": "Трасса М5", "score": "9.4 / 10", "desc": "Дорога становится образом повторяющегося одиночества: человек снова оказывается там, где уже был, продолжая идти несмотря на ошибки и разочарования.", "poem": "Шёл человек по трассе М5.\nЕго все бросили не в первый раз, а опять.\nОн доверился людям, поверил науке —\nа его окружали одни только суки.\n\nОн шёл по трассе, ни на час не сдаваясь.\nОн шёл по пути, по пути ошибаясь.\nОн шёл по асфальту с разбитой ногою\nи шёл, не давая себе покою.\n\nОн шёл один по трассе М5.\nОн шёл один — не в первый раз, а опять.\nИ снова ошибка, и снова трасса.\nНе изменился он, как ни старался.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ТРАССА / НОЧЬ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#24415d\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#6da6d5\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M390 520 C350 430 360 330 395 250 C430 330 430 430 390 520Z\" fill=\"#15181b\"/><path d=\"M260 520 Q390 410 520 520\" fill=\"none\" stroke=\"#6da6d5\" stroke-width=\"12\"/><path d=\"M330 520 L355 230 M450 520 L425 230\" stroke=\"#6da6d5\" stroke-width=\"8\"/><circle cx=\"390\" cy=\"145\" r=\"45\" fill=\"#6da6d5\" opacity=\".35\"/>\n<text x=\"55\" y=\"80\" fill=\"#6da6d5\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ТРАССА / НОЧЬ</text>\n</svg>"}, {"i": "03", "title": "Друзья-ебанаты", "score": "9.3 / 10", "desc": "Грубоватая и абсурдная зарисовка о компании друзей, чьи странности становятся частью общей привязанности. За шутками остаётся простая мысль о дружбе.", "poem": "У меня есть друзья ебанаты.\nОдин готов съебать на канаты.\nДругой готов взять на прогулку сижку\nи потушить её об свою лысую стрижку.\n\nОдин собаку жарит по утрам,\nа подкаблучник не даёт покоя нам.\nНу что ж поделать — они ж мои друзья.\nБросать в беде их никак нельзя.\n\nНу а про себя скажу немного:\nсебя оцениваю строго.\nБыл человек с большим умом,\nа с ними я стал дураком.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"КОМНАТА / ХАОС\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#51421a\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#d1aa48\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"180\" y=\"230\" width=\"420\" height=\"250\" rx=\"18\" fill=\"#17150e\" stroke=\"#d1aa48\" stroke-width=\"5\"/><circle cx=\"270\" cy=\"315\" r=\"50\" fill=\"#d1aa48\" opacity=\".25\"/><path d=\"M420 275 l90 0 l-25 130 l-90 0z\" fill=\"#d1aa48\" opacity=\".32\"/><path d=\"M230 455 Q390 370 550 455\" fill=\"none\" stroke=\"#d1aa48\" stroke-width=\"8\"/>\n<text x=\"55\" y=\"80\" fill=\"#d1aa48\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">КОМНАТА / ХАОС</text>\n</svg>"}, {"i": "04", "title": "Парень сидит в три ночи", "score": "9.2 / 10", "desc": "Ночная исповедь о человеке, который переживает отсутствие тепла и поддержки. Чай, тишина и дорога домой становятся простыми деталями внутренней усталости.", "poem": "Парень сидит в три ночи, скучая.\nЭто серая масса на него сильно давит.\nОн грустит, безысходность свою принимая.\nОн грустит, потому что всё понимает.\n\nОн хочет отдачи, он хочет тепла,\nон хочет расправить свои крылья орла.\nНо кто подойдёт и подарит тепло?\nНо кто подойдёт и отдаст пальто?\n\nОн не плачет друзьям,\nон не бежит к своей мамке.\nОн лишь ремень застегнул\nна своей рваной портянке.\n\nНо пришёл он домой и, в три ночи скучая,\nпопивает себе кружку чая.\nИ конечно он понял: не будет отдачи.\nОн естественно понял: что не будет сдачи.\n\nПосле ночи трудной он тихо встаёт.\nОн не греет, не плачет, и не орёт.\nИ снова чай на дне допивая\nботинки обует и к закату шагает.\n\nОн не сдался, не умер — он просто устал.\nИ допив кружку чая, тихо шептал:\n«Помочь мне хотели люди высокие,\nа я обретал тишину и спокойствие».", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ТРИ ЧАСА НОЧИ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#283652\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#9db5d9\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"190\" y=\"170\" width=\"400\" height=\"290\" rx=\"18\" fill=\"#10131a\" stroke=\"#9db5d9\" stroke-width=\"4\"/><circle cx=\"390\" cy=\"150\" r=\"42\" fill=\"#9db5d9\" opacity=\".3\"/><path d=\"M270 420 Q390 300 510 420\" fill=\"none\" stroke=\"#9db5d9\" stroke-width=\"7\"/><ellipse cx=\"390\" cy=\"410\" rx=\"70\" ry=\"25\" fill=\"#9db5d9\" opacity=\".45\"/>\n<text x=\"55\" y=\"80\" fill=\"#9db5d9\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ТРИ ЧАСА НОЧИ</text>\n</svg>"}, {"i": "05", "title": "Стоит человек посреди дороги", "score": "9.2 / 10", "desc": "Монолог человека, привыкшего помогать другим и почти не замечать собственную усталость. Финал резко обрывает историю, превращая доброту в трагический образ.", "poem": "Стоит человек посреди дороги,\nу него давно промокшие ноги.\nОн размышляет о жизни, ведёт монолог:\nДумает: рвать ли ради других свой бок?»\n\nТак странно, что падает снег в апреле.\nТак прекрасна природа — словно из акварели.\nЯ удобный рабочий или добрый мудак?\nЯ хороший друг или тихий дурак?\n\nПомогаю я людям, себя не щедя.\nПускай бог рассудит, прав ли я.\nВедь кому от помощи плохо? Не тебе, не ему.\nА от помощи плохо только мне самому.\n\nНо я готов пойти на разрыв,\nя готов очутиться в банке,\nя готов остаться живым,\nчтоб помочь даже старой цыганке.\n\nЯ поставлю спину над небом,\nя закрою, ребята, вам дождь.\nВы просите о помощи. Верьте!\nЯ смогу вам чем-то помочь.\n\nВсё стоял человек на проспекте,\nулыбался и плакал себе.\nИ машина, не хотевшая смерти,\nположила конец доброте.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ПРОСПЕКТ / ДОЖДЬ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#2f4433\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#a7c58c\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M130 500 Q390 360 650 500\" fill=\"none\" stroke=\"#a7c58c\" stroke-width=\"10\"/><circle cx=\"390\" cy=\"240\" r=\"62\" fill=\"#a7c58c\" opacity=\".22\"/><path d=\"M310 500 L335 300 M470 500 L445 300\" stroke=\"#a7c58c\" stroke-width=\"9\"/>\n<text x=\"55\" y=\"80\" fill=\"#a7c58c\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ПРОСПЕКТ / ДОЖДЬ</text>\n</svg>"}, {"i": "06", "title": "И вновь идём мы на пролом", "score": "9.0 / 10", "desc": "Размышление о совести как о внутреннем голосе, который не исчезает даже тогда, когда от него пытаются избавиться. Образ огня оставляет открытым вопрос о том, что остаётся после пережитого.", "poem": "И вновь идём мы на пролом,\nно в пустоте лишь тишина.\nНаступил мыслей погром,\nи осталась я одна.\n\nБудь ты добрым, любящим, хорошим —\nсгинешь в подобии прочих.\nЯ сильно прошусь уйти, но, как ни стараюсь,\nты оставляешь в голове\nменя — и ближе к раю.\n\nМеня выгоняют из мира,\nоставляют в темноте.\nНо через долгие, трение дни\nты держишь меня при себе.\n\nМеня не берут пламени муки.\nЯ — та, кого не хватает многим.\n\nВсегда ли после пламени остаётся дым?\nИ значит ли это — остаток жара?\nИли же значит — остался живым?\nИ стоит ли ожидать пожара?", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ОГОНЬ / ТИШИНА\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#4c321b\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#d28c40\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M390 520 C290 400 270 300 390 230 C510 300 490 400 390 520Z\" fill=\"none\" stroke=\"#d28c40\" stroke-width=\"14\"/><path d=\"M390 455 C340 395 335 345 390 315 C445 345 440 395 390 455Z\" fill=\"#d28c40\" opacity=\".4\"/>\n<text x=\"55\" y=\"80\" fill=\"#d28c40\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ОГОНЬ / ТИШИНА</text>\n</svg>"}, {"i": "07", "title": "Худо-бедно тянут люди", "score": "8.8 / 10", "desc": "Притчевый образ мёртвого сердца на блюде превращается в разговор о свободе, страхе и цене перемен. Короткий текст построен на резких контрастах.", "poem": "Худо-бедно тянут люди\nсердце мёртвое на блюде.\nИм противно, больно, страшно,\nно отпустить поднос опасно.\n\nОни хотели бы свободы —\nони свободные народы.\nНо не хватает силы воли,\nно не хватает слёз и горя.\n\nНо настанет час расплаты —\nи разрушатся заплаты,\nчто так тщательно варили\nте, кто сердце обранили.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"СЕРДЦЕ / БЛЮДО\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#491919\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#d24c42\" opacity=\".12\" filter=\"url(#g)\"/>\n<ellipse cx=\"390\" cy=\"360\" rx=\"150\" ry=\"190\" fill=\"#d24c42\" opacity=\".35\"/><path d=\"M300 290 C340 220 440 220 480 290 C500 350 450 430 390 470 C330 430 280 350 300 290Z\" fill=\"#17100f\" stroke=\"#d24c42\" stroke-width=\"8\"/>\n<text x=\"55\" y=\"80\" fill=\"#d24c42\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">СЕРДЦЕ / БЛЮДО</text>\n</svg>"}, {"i": "08", "title": "Нынешний мир на распутье", "score": "8.2 / 10", "desc": "Картина мира, в котором обычное желание спокойной жизни сталкивается с ощущением чужого и тяжёлого пути. Финальные строки переводят общий взгляд в личное пространство автора.", "poem": "Нынешний мир на распутье,\nнам хочется просто идти.\nС головой окутаны люди —\nстрашные пасти судьбы.\n\nВсем хочется обычной жизни\nбез тяжёлых и трудных утрат,\nчтоб дети ждали капризно\nвкусняшек и деревянных солдат.\n\nНо мир — как захудалая тропинка.\nНе мы просили этот путь.\nА вся красивая картинка\nпод нею — мерзость да и грусть.\n\nМы все смирились с этим тяготением,\nослеплены мы на века.\nКогда-нибудь исчезнет очерствение,\nи вот тогда наступит теплота.\n\nХоть и живу я в чистой квартире,\nгде нет никаких лишних бед,\nно в стране я словно в сортире,\nв котором происходит полный бред.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"РАСПУТЬЕ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#40432b\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#b5b96c\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M390 130 L390 500 M170 320 L610 320\" stroke=\"#b5b96c\" stroke-width=\"8\"/><path d=\"M390 320 L235 185 M390 320 L545 185 M390 320 L220 465 M390 320 L570 465\" stroke=\"#b5b96c\" stroke-width=\"7\"/><circle cx=\"390\" cy=\"320\" r=\"38\" fill=\"#b5b96c\" opacity=\".4\"/>\n<text x=\"55\" y=\"80\" fill=\"#b5b96c\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">РАСПУТЬЕ</text>\n</svg>"}, {"i": "09", "title": "Все люди как люди — они словно хлеб", "score": "8.0 / 10", "desc": "Развёрнутая метафора людей как разных видов хлеба. Внешняя привлекательность постепенно уступает место образам пустоты, гнили и разочарования.", "poem": "Все люди как люди — они словно хлеб.\nЕсть грубые, мягкие, есть и святые.\nЖивут же они в прогнившем мирке,\nгде совесть — это слова пустые.\n\nНо даже тут нашёлся особенный сорт —\nон сладок на вид, и снаружи он торт.\nНо сладкая блажь сменяется мерзкой,\nи ты открываешь те сладкие дверцы.\n\nТы расстроен, обманут, обведён как дешёвка,\nи вот, отворяя вонючие створки,\nты смотришь вдаль — но вдали пустота.\nИ не стоит она даже дырки в сортире,\nкоторый стоит в мёртвой квартире.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ХЛЕБ / ГНИЛЬ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#49391f\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#d2ad62\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"220\" y=\"270\" width=\"340\" height=\"210\" rx=\"12\" fill=\"#5b4020\" stroke=\"#d2ad62\" stroke-width=\"7\"/><path d=\"M280 310 Q390 260 500 310 M260 365 Q390 325 520 365 M300 425 Q390 390 480 425\" fill=\"none\" stroke=\"#1b140e\" stroke-width=\"14\"/>\n<text x=\"55\" y=\"80\" fill=\"#d2ad62\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ХЛЕБ / ГНИЛЬ</text>\n</svg>"}, {"i": "10", "title": "Есть люди как люди", "score": "8.0 / 10", "desc": "Короткая версия хлебной метафоры: от свежего мякиша до внутренней гнили. Текст намеренно сжат до нескольких резких образов.", "poem": "Есть люди как люди, есть люди как хлеб, есть мягкие, есть и чёрствые.\nЕсть мякиш, что пахнет свежо по утрам в забытом совестью мире.\nНо среди этих хлебов есть особенный вид,\nвкусный снаружи, как мякоть, но с мягким запахом гнили.\nИ чем ближе ты к центру, тем больше хлеб напоминает дырку в сортире.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"МЯКИШ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#39311f\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#c9b477\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M260 390 Q390 330 520 390 Q450 470 390 470 Q330 470 260 390Z\" fill=\"#c9b477\" opacity=\".55\"/><circle cx=\"390\" cy=\"300\" r=\"45\" fill=\"#c9b477\" opacity=\".18\"/>\n<text x=\"55\" y=\"80\" fill=\"#c9b477\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">МЯКИШ</text>\n</svg>"}, {"i": "11", "title": "Мякиш в тонущем мире", "score": "8.0 / 10", "desc": "Герой сравнивает себя с мягким свежим мякишем среди мира, который кажется ему прогнившим и тонущим. В центре — сопротивление попытке превратить человека в чужую ошибку.", "poem": "И вроде всё как обычно, все люди как хлеб,\nи чёрствые есть, и гнилые.\nА я мякиш, что пахнет свежо по утрам\nв тонущем системою мире.\nМеня съесть хотят как ошибку,\nно комом в горле став, я стою на своём,\nи для них я полный мудак.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ТОНУЩИЙ МИР\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#1b4044\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#5bc2b5\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M150 470 Q270 380 390 470 T630 470\" fill=\"none\" stroke=\"#5bc2b5\" stroke-width=\"14\"/><rect x=\"300\" y=\"230\" width=\"180\" height=\"140\" rx=\"10\" fill=\"#102024\" stroke=\"#5bc2b5\" stroke-width=\"5\"/><path d=\"M230 250 L550 430 M230 430 L550 250\" stroke=\"#5bc2b5\" stroke-width=\"3\" opacity=\".4\"/>\n<text x=\"55\" y=\"80\" fill=\"#5bc2b5\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ТОНУЩИЙ МИР</text>\n</svg>"}, {"i": "12", "title": "Я гений в теле лентяя", "score": "8.0 / 10", "desc": "Самоопределение через противопоставления: гений и лентяй, зло и добро, ошибка и сопротивление системе. Финальный образ Феникса задаёт мотив возвращения и несогласия с исчезновением.", "poem": "Я гений в теле лентяя,\nя зло в теле добра,\nя ошибка в коде системы,\nя лох в глазах дикаря.\n\nЯ не играю с системою, а с ней я борюсь\nи не мыслю в диапазоне их кода.\nЯ как Феникс воскликнул: «Я ОСТАЮСЬ!»\nИ настанет для системы всей непогода.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ФЕНИКС / КОД\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#3b2250\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#b67cf0\" opacity=\".12\" filter=\"url(#g)\"/>\n<path d=\"M390 500 C300 430 275 345 320 285 C350 245 375 205 390 155 C405 205 430 245 460 285 C505 345 480 430 390 500Z\" fill=\"#b67cf0\" opacity=\".55\"/><path d=\"M320 420 Q390 330 460 420\" fill=\"none\" stroke=\"#120b17\" stroke-width=\"10\"/>\n<text x=\"55\" y=\"80\" fill=\"#b67cf0\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ФЕНИКС / КОД</text>\n</svg>"}, {"i": "13", "title": "Шёл домой я с прогулки", "score": "8.0 / 10", "desc": "Абсурдная история о случайном взгляде, который воспринимается как смертельный удар. Повседневная прогулка постепенно превращается в гротескную драму.", "poem": "Шёл домой я с прогулки,\nно судьба была такова:\nне успев поесть свежей булки,\nя упал как на асфальт, как доска.\nВзгляд её был слишком мрачен,\nшла по дороге, оставляя следы —\nследы безысходности данной.\nНо ничего не случалось, все здоровы, добры.\nНо шла беспощадно, пожимая плечами,\nне замечая никого на пути. Шла она с тёмным взглядом,\nи в тот день был я убит — убит пронзительным взором.\nИ теперь мне уже ничего не почём,\nведь убит я пронзительным взглядом.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ВЗГЛЯД\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#343842\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#abb4c8\" opacity=\".12\" filter=\"url(#g)\"/>\n<circle cx=\"390\" cy=\"300\" r=\"100\" fill=\"#abb4c8\" opacity=\".22\"/><circle cx=\"350\" cy=\"290\" r=\"12\" fill=\"#abb4c8\"/><circle cx=\"430\" cy=\"290\" r=\"12\" fill=\"#abb4c8\"/><path d=\"M300 410 Q390 470 480 410\" fill=\"none\" stroke=\"#abb4c8\" stroke-width=\"8\"/>\n<text x=\"55\" y=\"80\" fill=\"#abb4c8\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ВЗГЛЯД</text>\n</svg>"}, {"i": "14", "title": "Попугай-террорист", "score": "7.8 / 10", "desc": "Бытовой абсурд о домашнем попугае, который превращает квартиру в маленькую зону хаоса. Агрессивная лексика здесь работает как часть комического рассказа.", "poem": "У меня есть в доме пернатый террорист.\nОн в клетке на жёрдочке повис.\nСидит всю ночь и кукарекает,\nкак будто знает, что кумекает.\n\nГрызёт обои по ночам —\nнет жизни даже ночью нам.\nАх, попугай этот прекрасный,\nтеррорист не хочет даже ласки.\n\nСточил он стены, перегрыз канат.\nХомяк подумал: «Че за ебанат?»\nНо жить приходится нам вместе,\nи в этом есть своя крутая песня.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ПЕРНАТЫЙ ТЕРРОРИСТ\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#2b4b31\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#7bd18d\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"300\" y=\"230\" width=\"180\" height=\"220\" rx=\"50\" fill=\"#172217\" stroke=\"#7bd18d\" stroke-width=\"6\"/><circle cx=\"350\" cy=\"300\" r=\"14\" fill=\"#7bd18d\"/><circle cx=\"430\" cy=\"300\" r=\"14\" fill=\"#7bd18d\"/><path d=\"M300 360 L220 300 M480 360 L560 300\" stroke=\"#7bd18d\" stroke-width=\"9\"/><path d=\"M280 450 Q390 390 500 450\" fill=\"none\" stroke=\"#7bd18d\" stroke-width=\"8\"/>\n<text x=\"55\" y=\"80\" fill=\"#7bd18d\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ПЕРНАТЫЙ ТЕРРОРИСТ</text>\n</svg>"}, {"i": "15", "title": "Сидит парень на кресле весёлый", "score": "7.5 / 10", "desc": "Спокойная бытовая сцена, в которой обычный вечер с кашей и мультфильмом соседствует с неожиданной мыслью о будущем. Текст оставляет ощущение странного, почти сонного эпизода.", "poem": "Сидит парень на кресле весёлый.\nОн ничего не боится. Отнюдь.\nОн не грустит, вспоминая те сёла.\nОн просто хочет спокойно уснуть.\n\nНо от бешеной этой активности\nон делает шаг.\nОн не просто мальчонка\nи не просто дурак.\n\nОн сидит за столом, кушает кашу,\nа по каналу — мультфильм про ту самую Машу.\nИ пока на экране идёт кино,\nпарень думает: как бы построить плато.", "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 560\" role=\"img\" aria-label=\"ВЕЧЕР / КРЕСЛО\">\n<defs><filter id=\"g\"><feGaussianBlur stdDeviation=\"12\"/></filter></defs>\n<rect width=\"780\" height=\"560\" fill=\"#4a3b25\"/>\n<circle cx=\"610\" cy=\"110\" r=\"90\" fill=\"#d5b06a\" opacity=\".12\" filter=\"url(#g)\"/>\n<rect x=\"270\" y=\"330\" width=\"240\" height=\"130\" rx=\"20\" fill=\"#19140d\" stroke=\"#d5b06a\" stroke-width=\"6\"/><path d=\"M315 330 L315 245 M465 330 L465 245\" stroke=\"#d5b06a\" stroke-width=\"8\"/><circle cx=\"390\" cy=\"210\" r=\"35\" fill=\"#d5b06a\" opacity=\".28\"/><path d=\"M280 460 Q390 400 500 460\" fill=\"none\" stroke=\"#d5b06a\" stroke-width=\"7\"/>\n<text x=\"55\" y=\"80\" fill=\"#d5b06a\" font-family=\"monospace\" font-size=\"16\" letter-spacing=\"4\">ЛИЧНЫЙ АРХИВ · 2024–2025</text>\n<text x=\"55\" y=\"515\" fill=\"#e8e2d3\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"34\" letter-spacing=\"2\">ВЕЧЕР / КРЕСЛО</text>\n</svg>"}];
+function showCatalog(){
+  document.getElementById('reader').classList.add('hidden');
+  document.getElementById('catalog').classList.remove('hidden');
+  window.scrollTo(0,0);
+  document.title='Личный архив 2024–2025';
+}
+function showPoem(id, push=true){
+  const p=poems.find(x=>x.i===id);
+  if(!p) return showCatalog();
+  if(push) history.pushState({poem:id},'', '#'+id);
+  document.getElementById('catalog').classList.add('hidden');
+  document.getElementById('reader').classList.remove('hidden');
+  document.getElementById('title').textContent=p.title;
+  document.getElementById('score').textContent=p.score;
+  document.getElementById('desc').textContent=p.desc;
+  document.getElementById('poem').textContent=p.poem;
+  document.getElementById('art').innerHTML=p.svg;
+  document.getElementById('caption').textContent='ЛИЧНЫЙ АРХИВ 2024–2025 · '+p.i;
+  const n=(parseInt(p.i,10)%15)+1;
+  document.getElementById('next').textContent='СЛЕДУЮЩИЙ →';
+  document.getElementById('next').dataset.open=String(n).padStart(2,'0');
+  window.scrollTo(0,0);
+  document.title='Личный архив 2024–2025 — '+p.title;
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-open]');
+  if(b) showPoem(b.dataset.open);
+});
+document.getElementById('back').onclick=()=>{history.pushState({},'',location.pathname);showCatalog()};
+document.getElementById('exit').onclick=()=>{history.pushState({},'',location.pathname);showCatalog()};
+document.getElementById('next').onclick=()=>showPoem(document.getElementById('next').dataset.open);
+window.addEventListener('popstate',()=>{
+  const id=location.hash.slice(1);
+  id ? showPoem(id,false) : showCatalog();
+});
+const initial=location.hash.slice(1);
+if(initial) showPoem(initial,false);
+</script>
+</body></html>
